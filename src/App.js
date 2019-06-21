@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Note from "./Note/Note";
+import NoteForm from "./NoteForm/NoteForm";
 
 class App extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class App extends Component {
           }
         </div>
         <div className="notesFooter">
-          Footer will go here...
+          <NoteForm />
         </div>
       </div>
     );
